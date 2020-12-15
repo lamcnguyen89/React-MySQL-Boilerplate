@@ -7,7 +7,8 @@ Full MERN stack: React, Node.js, Express, MySQL, Javascript (ES6), Redux, JSON W
 
 ## Installation
 
-To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command in BOTH the client folder which contains React AND the root folder where server.js is located:
+
 
 ```
 npm install
