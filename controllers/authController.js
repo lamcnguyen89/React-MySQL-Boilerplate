@@ -20,7 +20,7 @@ module.exports = {
             if (password.length < 6) return res.status(400).json({ message: "Password must be at least 6 characters long" });
 
             // create new User object to be saved in Database
-            const newUser = new User({
+            const newUser = new db.User({
                 firstname,
                 lastname,
                 email,
